@@ -17,5 +17,7 @@
     "url": "https://github.com/autumnchris/url-shortener-api/issues"
   },
   "homepage": "",
-  "dependencies": {}
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
