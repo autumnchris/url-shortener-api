@@ -18,5 +18,18 @@
       <p>View the <a href="https://github.com/autumnchris/url-shortener-api" target="_blank">source code</a> for this project.</p>
       <hr>
     </header>
+    <main>
+      <h3>Project Usage</h3>
+      <p>Submit a web address in the form below to get a shortened URL that will redirect to the original URL.</p>
+      <p>For example, <code>https://autumnchris-url-shortener.herokuapp.com/XepQ8lXk</code> will redirect to <code>https://github.com</code>.</p>
+      <form action="/api/shorturl/new" method="post">
+        <div class="form-group">
+          <input type="text" name="url" placeholder="Paste a URL to be shortened" aria-label="Paste a URL to be shortened" required>
+        </div>
+        <div class="button-group">
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+    </main>
   </body>
 </html>
