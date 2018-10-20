@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/autumnchris/url-shortener-api/issues"
   },
-  "homepage": "",
+  "homepage": "https://autumnchris-url-shortener.herokuapp.com",
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
