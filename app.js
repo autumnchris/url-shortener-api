@@ -1,6 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
+const ShortURL = require('./models/shorturl.js');
 
 const app = express();
 const port = process.env.PORT || 3000;
