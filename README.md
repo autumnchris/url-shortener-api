@@ -4,6 +4,16 @@ My project for the [URL Shortener Microservice challenge](https://learn.freecode
 
 ---
 
+## Built With
+* [Express.js](https://expressjs.com)
+* [Mongoose](https://mongoosejs.com)
+* [MongoDB](https://www.mongodb.com)
+* HTML5
+* CSS3
+* [randomstring](https://github.com/klughammer/node-randomstring)
+* [valid-url](https://github.com/ogt/valid-url)
+* [Google Fonts](https://fonts.google.com)
+
 ## Demo
 
 View project demo at [https://autumnchris-url-shortener.herokuapp.com](https://autumnchris-url-shortener.herokuapp.com).
