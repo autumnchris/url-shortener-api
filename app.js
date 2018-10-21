@@ -47,6 +47,14 @@ app.post('/api/shorturl/new', (req, res) => {
   }
 });
 
+app.get('/:shorturl', (req, res) => {
+  ShortURL.findOne({alias: req.params.shorturl}).then(data => {
+    res.redirect(data.url);
+  }).catch(err => {
+    res.sendFile(`${__dirname}/views/404.html`);
+  });
+});
+
 app.use((req, res) => {
   res.sendFile(`${__dirname}/views/404.html`, 404);
 });
