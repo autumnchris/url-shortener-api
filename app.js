@@ -12,10 +12,6 @@ app.use(bodyParser.urlencoded({extended: false}));
 
 mongoose.connect(process.env.MONGO_URI);
 
-app.get('/', (req, res) => {
-  res.sendFile(`${__dirname}/views/index.html`);
-});
-
 app.use(express.static(`${__dirname}/public`));
 
 app.post('/api/shorturl/new', (req, res) => {
@@ -51,12 +47,12 @@ app.get('/:shorturl', (req, res) => {
   ShortURL.findOne({alias: req.params.shorturl}).then(data => {
     res.redirect(data.url);
   }).catch(err => {
-    res.sendFile(`${__dirname}/views/404.html`);
+    res.sendFile(`${__dirname}/public/404.html`);
   });
 });
 
 app.use((req, res) => {
-  res.sendFile(`${__dirname}/views/404.html`, 404);
+  res.status(404).sendFile(`${__dirname}/public/404.html`);
 });
 
 app.listen(port, console.log(`Server is listening at port ${port}.`));
