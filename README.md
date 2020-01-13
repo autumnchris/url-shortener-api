@@ -8,7 +8,7 @@ My project for the [URL Shortener Microservice challenge](https://learn.freecode
 * [Express.js](https://expressjs.com)
 * [Mongoose](https://mongoosejs.com)
 * [MongoDB](https://www.mongodb.com)
-* HTML5
+* [EJS](https://ejs.co)
 * CSS3
 * [randomstring](https://github.com/klughammer/node-randomstring)
 * [valid-url](https://github.com/ogt/valid-url)
