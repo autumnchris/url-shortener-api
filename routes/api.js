@@ -20,7 +20,7 @@ router.post('/', (req, res, next) => {
     shortURL.save().then(url => {
       res.json({
         original_url: req.body.url,
-        short_url: `https://autumnchris-url-shortener.herokuapp.com/${alias}`
+        alias_url: `https://autumnchris-url-shortener.herokuapp.com/${alias}`
       });
     }).catch(error => {
       res.json({ error });
