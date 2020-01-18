@@ -1,6 +1,6 @@
 html {
-  background: #1d1d1d;
-  background: linear-gradient(120deg, #1d1d1d, #31283a) fixed;
+  background: hsl(0, 0%, 11%);
+  background: linear-gradient(120deg, hsl(0, 0%, 11%), hsl(270, 18%, 19%)) fixed;
 }
 
 p {
@@ -22,7 +22,7 @@ code {
 }
 
 hr {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+  border-bottom: 1px solid hsla(0, 0%, 100%, 0.6);
 }
 
 header {
@@ -69,9 +69,9 @@ form {
 }
 
 input[type=text] {
-  background: #fff;
+  background: hsl(0, 0%, 100%);
   border-radius: 3px;
-  color: #333;
+  color: hsl(0, 0%, 20%);
   max-width: 400px;
   padding: 8px;
   width: 100%;
