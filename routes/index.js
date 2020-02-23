@@ -1,5 +1,5 @@
 const express = require('express');
-const ShortURL = require('.././models/shorturl.js');
+const ShortURL = require('../models/shorturl');
 const router = express.Router();
 
 router.get('/', (req, res, next) => {

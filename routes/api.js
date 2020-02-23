@@ -1,7 +1,7 @@
 const express = require('express');
 const validURL = require('valid-url');
 const randomstring = require('randomstring');
-const ShortURL = require('.././models/shorturl.js');
+const ShortURL = require('../models/shorturl');
 const router = express.Router();
 
 router.post('/', (req, res, next) => {
