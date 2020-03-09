@@ -20,7 +20,7 @@ app.use('/', indexRouter);
 app.use('/api/shorturl/new', apiRouter);
 
 app.use((req, res, next) => {
-    res.status(404).render('404', {title: 'Page not found | '});
+    res.status(404).render('404', {title: 'Page not found'});
 });
 
 app.listen(port, console.log(`Server is listening at port ${port}.`));
