@@ -4,23 +4,23 @@
   <body>
     <header>
       <h1>URL Shortener API</h1>
-      <h2>Created by <a href="https://autumnbullard-portfolio.herokuapp.com" target="_blank">Autumn Bullard</a> &copy; <%= new Date().getFullYear(); %></h2>
+      <p>Created by <a href="https://autumnbullard-portfolio.herokuapp.com" target="_blank">Autumn Bullard</a> &copy; <%= new Date().getFullYear(); %></p>
+    </header>
+    <main>
       <p>My project for the <a href="https://learn.freecodecamp.org/apis-and-microservices/apis-and-microservices-projects/url-shortener-microservice" target="_blank">URL Shortener Microservice challenge</a> as part of the curriculum for the Apis and Microservices Certification on <a href="https://www.freecodecamp.org" target="_blank">freeCodeCamp</a>.</p>
       <p>View the <a href="https://github.com/autumnchris/url-shortener-api" target="_blank">source code</a> for this project.</p>
       <hr>
-    </header>
-    <main>
-      <h3>Project Usage</h3>
-      <p>Submit a web address in the form below to get a generated alias that will be used to redirect to the original URL.</p>
-      <p>For example, if I wanted an alias URL that will redirect to GitHub's homepage I would paste <code>https://github.com</code>in the input field and upon submission I would receive a new URL as my alias that I can then use to redirect to the original URL that I submitted.</p>
-      <form action="/api/shorturl/new" method="post">
-        <div class="form-group">
-          <input type="text" name="url" placeholder="Paste a URL to be shortened" aria-label="Paste a URL to be shortened" required>
-        </div>
-        <div class="button-group">
-          <input type="submit" value="Submit">
-        </div>
-      </form>
+      <section>
+        <h2>Project Usage</h2>
+        <p>Submit a web address in the form below to get a generated alias URL that will be used to redirect to the original URL.</p>
+        <p>For example, if I wanted an alias URL that will redirect to GitHub's homepage I would enter <code>https://github.com</code> into the input field and upon submission I would receive a new URL as my alias that I can now use to redirect to the original URL.</p>
+        <form action="/api/shorturl/new" method="post">
+          <div class="form-group">
+            <input type="text" name="url" placeholder="Enter a URL to be shortened" aria-label="Enter a URL to be shortened" required>
+          </div>
+          <input type="submit" class="button" value="Submit">
+        </form>
+      </section>
     </main>
   </body>
 </html>

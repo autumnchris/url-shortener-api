@@ -12,6 +12,7 @@ My project for the [URL Shortener Microservice challenge](https://learn.freecode
 * CSS3
 * [randomstring](https://github.com/klughammer/node-randomstring)
 * [valid-url](https://github.com/ogt/valid-url)
+* [Normalize.css](https://necolas.github.io/normalize.css)
 * [Google Fonts](https://fonts.google.com)
 
 ## Demo
