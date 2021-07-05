@@ -21,13 +21,11 @@ exports.createAlias = (req, res, next) => {
         alias_url: `https://autumnchris-url-shortener.herokuapp.com/${alias}`
       });
     }).catch(error => {
-      res.json({ error });
+      res.send(error);
     });
   }
   else {
-    res.json({
-      error: 'Invalid URL'
-    });
+    res.send('Invalid URL');
   }
 }
 
