@@ -25,7 +25,7 @@ exports.createAlias = (req, res, next) => {
     });
   }
   else {
-    res.send('Invalid URL');
+    res.send(`The submittted URL is invalid.`);
   }
 }
 
