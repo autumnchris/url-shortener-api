@@ -22,7 +22,7 @@ Inspired by the [URL Shortener Microservice challenge](https://learn.freecodecam
 
 ## Demo
 
-View project demo at [https://autumnchris-url-shortener.herokuapp.com](https://autumnchris-url-shortener.herokuapp.com).
+View project demo at [https://autumnchris-url-shortener.herokuapp.com/api](https://autumnchris-url-shortener.herokuapp.com/api).
 
 ## Instructions
 
