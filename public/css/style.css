@@ -32,7 +32,7 @@ header {
 main {
   margin: 0 auto;
   max-width: 600px;
-  padding: 5px 0 6rem;
+  padding-bottom: 6rem;
 }
 
 section {
@@ -76,6 +76,20 @@ code {
   font-family: "Oxygen Mono", monospace;
   padding: 2px;
   white-space: nowrap;
+}
+
+pre {
+  background: hsl(270, 100%, 95%);
+  border-radius: 4px;
+  overflow-x: auto;
+  padding: 12px;
+}
+
+pre code {
+  background: transparent;
+  border-radius: 0;
+  line-height: 1.3;
+  white-space: pre;
 }
 
 hr {
@@ -179,6 +193,11 @@ h2 {
   text-align: center;
 }
 
+.api-description {
+  padding-top: 5px;
+  text-align: left;
+}
+
 form {
   padding-bottom: 25px;
   text-align: center;
@@ -186,6 +205,21 @@ form {
 
 .form-group {
   padding-top: 28px;
+}
+
+.message {
+  border-radius: 5px;
+  line-height: 1.55;
+  margin: 20px 0;
+  max-width: 800px;
+  padding: 15px 10px;
+  text-align: center;
+}
+
+.error-message {
+  background: hsl(349, 96%, 95%);
+  border: 1px solid hsl(349, 96%, 90%);
+  color: hsl(349, 96%, 26%);
 }
 
 /* MEDIA QUERIES */
