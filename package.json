@@ -18,11 +18,11 @@
   },
   "homepage": "https://autumnchris-url-shortener.herokuapp.com",
   "dependencies": {
-    "body-parser": "^1.18.3",
-    "dotenv": "^8.2.0",
+    "dotenv": "^16.0.0",
     "ejs": "^3.0.1",
     "express": "^4.16.4",
-    "mongoose": "^5.12.12",
+    "express-ejs-layouts": "^2.5.1",
+    "mongoose": "^6.2.4",
     "randomstring": "^1.1.5",
     "valid-url": "^1.0.9"
   },

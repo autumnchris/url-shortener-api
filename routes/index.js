@@ -3,9 +3,9 @@ const shorturlController = require('../controllers/shorturl-controller');
 const router = express.Router();
 
 router.get('/', (req, res, next) => {
-  res.render('index');
+  res.redirect('/api');
 });
 
-router.get('/:shorturl', shorturlController.redirect);
+router.get('/alias/:shortURLCode', shorturlController.redirectToLongURL);
 
 module.exports = router;

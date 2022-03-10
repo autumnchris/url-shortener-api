@@ -17,6 +17,7 @@ Inspired by the [URL Shortener Microservice challenge](https://learn.freecodecam
 * [dotenv](https://github.com/motdotla/dotenv)
 * [Normalize.css](https://necolas.github.io/normalize.css)
 * [Google Fonts](https://fonts.google.com)
+* [FontAwesome](https://fontawesome.com)
 * [nodemon](https://nodemon.io)
 
 ## Demo
