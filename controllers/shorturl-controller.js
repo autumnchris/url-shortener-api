@@ -31,12 +31,12 @@ exports.createShortURLCode = (req, res, next) => {
           generateShortURLCode();
         }
         else {
-          res.render('form', { errorMessage: 'Unable to create a shortened URL at this time.' });
+          res.render('form', { data: longURLInput, errorMessage: 'Unable to create a shortened URL at this time.' });
         }
       });
     }
     else {
-      res.render('form', { errorMessage: 'A valid URL is required to create a shortened URL.' });
+      res.render('form', { data: longURLInput, errorMessage: 'A valid URL is required to create a shortened URL.' });
     }
   }
   generateShortURLCode();
