@@ -12,6 +12,7 @@ Inspired by the [URL Shortener Microservice challenge](https://learn.freecodecam
 * [MongoDB](https://www.mongodb.com)
 * [EJS](https://ejs.co)
 * CSS3
+* JavaScript
 * [randomstring](https://github.com/klughammer/node-randomstring)
 * [valid-url](https://github.com/ogt/valid-url)
 * [dotenv](https://github.com/motdotla/dotenv)

@@ -6,12 +6,24 @@
     <link rel="icon" href="/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oxygen">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oxygen+Mono">
     <link rel="stylesheet" href="/css/style.css">
   </head>
   <body>
     <%- body %>
+    <script>
+      function events() {
+        document.addEventListener('click', event => {
+          const element = event.target;
+          element.matches('.copy-button.api-urls') ? copyText('https://autumnchris-url-shortener-api.onrender.com/api/shorturls') : null;
+        });
+      }
+      function copyText(text) {
+        navigator.clipboard.writeText(text);
+      }
+      events();
+    </script>
   </body>
 </html>

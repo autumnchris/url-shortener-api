@@ -111,6 +111,45 @@ hr {
   text-align: left;
 }
 
+/* Code styles */
+code {
+  background: hsl(270, 100%, 95%);
+  border-radius: 2px;
+  color: hsl(270, 100%, 30%);
+  font-family: "Oxygen Mono", monospace;
+  padding: 2px;
+  white-space: nowrap;
+}
+
+pre {
+  background: hsl(270, 100%, 95%);
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  overflow-x: auto;
+  padding: 12px;
+}
+
+pre code {
+  background: transparent;
+  border-radius: 0;
+  line-height: 1.3;
+  white-space: pre;
+}
+
+pre .api-link {
+  white-space: normal;
+  width: 90%;
+  word-break: break-all;
+}
+
 /* Button styles */
 .button-group {
   display: -webkit-box;
@@ -143,28 +182,23 @@ hr {
   text-decoration: none;
 }
 
-/* Code styles */
-code {
-  background: hsl(270, 100%, 95%);
-  border-radius: 2px;
-  color: hsl(270, 100%, 30%);
-  font-family: "Oxygen Mono", monospace;
-  padding: 2px;
-  white-space: nowrap;
+.copy-button,
+.copy-button:visited,
+.copy-button:hover,
+.copy-button:active,
+.copy-button:focus {
+  height: 30px;
+  letter-spacing: initial;
+  line-height: initial;
+  margin: 0;
+  margin-left: 10px;
+  padding: 0;
+  width: 30px;
 }
 
-pre {
-  background: hsl(270, 100%, 95%);
-  border-radius: 4px;
-  overflow-x: auto;
-  padding: 12px;
-}
-
-pre code {
-  background: transparent;
-  border-radius: 0;
-  line-height: 1.3;
-  white-space: pre;
+.copy-icon {
+  pointer-events: none;
+  vertical-align: text-bottom;
 }
 
 /* Form styles */
