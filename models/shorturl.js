@@ -15,6 +15,9 @@ const ShortURLSchema = new Schema({
     type: Date,
     default: Date.now()
   }
+},
+{
+  strictQuery: true
 });
 
 // Virtual for the created short URL
