@@ -8,11 +8,14 @@ Inspired by the [URL Shortener Microservice challenge](https://learn.freecodecam
 
 ## Built With
 * [Express.js](https://expressjs.com)
+* [Node.js](https://nodejs.org/en)
 * [Mongoose](https://mongoosejs.com)
 * [MongoDB](https://www.mongodb.com)
 * [EJS](https://ejs.co)
+* HTML5
 * CSS3
 * JavaScript
+* Vanilla JS
 * [randomstring](https://github.com/klughammer/node-randomstring)
 * [valid-url](https://github.com/ogt/valid-url)
 * [dotenv](https://github.com/motdotla/dotenv)
