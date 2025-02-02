@@ -66,11 +66,10 @@ a:hover,
 a:active,
 a:focus {
   color: hsl(270, 100%, 85%);
-  text-decoration: none;
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:focus,
@@ -174,12 +173,12 @@ pre .api-link {
   line-height: normal;
   margin: 20px 5px 0;
   padding: 10px;
+  text-decoration: none;
   width: auto;
 }
 
 .button:hover {
   background: hsl(270, 100%, 82%);
-  text-decoration: none;
 }
 
 .copy-button,
