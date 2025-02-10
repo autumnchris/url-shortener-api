@@ -4,7 +4,7 @@
     <h2>Shorten a URL</h2>
     <form method="post" novalidate>
       <div class="form-group">
-        <input type="url" name="url" placeholder="Submit a URL to be shortened" value="<%= typeof data !== 'undefined' ? data : '' %>" aria-label="Submit a URL to be shortened" autocomplete="off" required>
+        <input type="url" name="url" placeholder="Submit a URL to be shortened" value="<%= typeof data !== 'undefined' ? data : '' %>" aria-label="Submit a URL to be shortened" id="url" autocomplete="off" required>
       </div>
       <div class="button-group">
         <button type="submit" class="button">Submit</button>
