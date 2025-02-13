@@ -79,10 +79,6 @@ h2 {
   text-align: center;
 }
 
-section {
-  padding-top: 30px;
-}
-
 a,
 a:visited,
 a:hover,
@@ -131,6 +127,10 @@ hr {
 .api-description {
   padding-top: 5px;
   text-align: left;
+}
+
+section {
+  padding-top: 30px;
 }
 
 /* Code styles */
