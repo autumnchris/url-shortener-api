@@ -1,3 +1,25 @@
+@font-face {
+  font-family: Oxygen;
+  src: url(../assets/fonts/Oxygen-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Oxygen Mono";
+  src: url(../assets/fonts/OxygenMono-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 400;
+  src: url(../assets/fonts/fa-regular-400.ttf);
+}
+
+@font-face {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  src: url(../assets/fonts/fa-solid-900.ttf);
+}
+
 /* BASE PAGE STYLES */
 
 * {
@@ -150,6 +172,15 @@ pre .api-link {
   word-break: break-all;
 }
 
+/* Font Awesome styles */
+.fa-regular {
+  font-weight: 400;
+}
+
+.fa-solid {
+  font-weight: 900;
+}
+
 /* Button styles */
 .button-group {
   display: -webkit-box;
@@ -187,18 +218,22 @@ pre .api-link {
 .copy-button:hover,
 .copy-button:active,
 .copy-button:focus {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   height: 30px;
-  letter-spacing: initial;
-  line-height: initial;
-  margin: 0;
-  margin-left: 10px;
-  padding: 0;
+  margin: 0 0 0 10px;
   width: 30px;
 }
 
 .copy-icon {
   pointer-events: none;
-  vertical-align: text-bottom;
 }
 
 /* Form styles */
