@@ -273,6 +273,13 @@ form {
   padding-top: 28px;
 }
 
+.button[type=submit],
+.button[type=submit]:hover,
+.button[type=submit]:active,
+.button[type=submit]:focus {
+  font-weight: 400;
+}
+
 /* Message styles */
 .message {
   border-radius: 5px;
